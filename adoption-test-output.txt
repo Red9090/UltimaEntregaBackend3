@@ -1,0 +1,153 @@
+
+> full-stack-entrega-final@1.0.0 test
+> jest --coverage --detectOpenHandles __tests__/adoption.test.js
+
+  console.log
+    ◇ injected env (4) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+      at _log (node_modules/dotenv/lib/main.js:131:11)
+
+  console.log
+    Server running in test mode on port 5000
+
+      at Server.log (src/server.js:54:11)
+
+  console.error
+    Error: Adoption not found with id of invalidid
+        at C:\Users\Administrator\Desktop\Code\Backend 3\Proyecto Final Backend 3\src\controllers\adoptionController.js:23:17
+        at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+    [0m [90m 36 |[39m [90m// Error handling middleware[39m
+     [90m 37 |[39m app[33m.[39muse((err[33m,[39m req[33m,[39m res[33m,[39m next) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 38 |[39m   console[33m.[39merror(err[33m.[39mstack)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 39 |[39m   [36mconst[39m statusCode [33m=[39m err[33m.[39mstatusCode [33m||[39m [35m500[39m[33m;[39m
+     [90m 40 |[39m   [36mconst[39m message [33m=[39m err[33m.[39mmessage [33m||[39m [32m'Something went wrong!'[39m[33m;[39m
+     [90m 41 |[39m[0m
+
+      at error (src/server.js:38:11)
+      at Layer.handleError (node_modules/router/lib/layer.js:116:17)
+      at trimPrefix (node_modules/router/index.js:340:13)
+      at node_modules/router/index.js:297:9
+      at processParams (node_modules/router/index.js:582:12)
+      at Immediate.next (node_modules/router/index.js:291:5)
+      at Immediate._onImmediate (node_modules/router/index.js:688:15)
+
+  console.error
+    Error: Adoption validation failed: amount: Path `amount` is required.
+        at C:\Users\Administrator\Desktop\Code\Backend 3\Proyecto Final Backend 3\src\controllers\adoptionController.js:68:19
+        at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+    [0m [90m 36 |[39m [90m// Error handling middleware[39m
+     [90m 37 |[39m app[33m.[39muse((err[33m,[39m req[33m,[39m res[33m,[39m next) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 38 |[39m   console[33m.[39merror(err[33m.[39mstack)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 39 |[39m   [36mconst[39m statusCode [33m=[39m err[33m.[39mstatusCode [33m||[39m [35m500[39m[33m;[39m
+     [90m 40 |[39m   [36mconst[39m message [33m=[39m err[33m.[39mmessage [33m||[39m [32m'Something went wrong!'[39m[33m;[39m
+     [90m 41 |[39m[0m
+
+      at error (src/server.js:38:11)
+      at Layer.handleError (node_modules/router/lib/layer.js:116:17)
+      at trimPrefix (node_modules/router/index.js:340:13)
+      at node_modules/router/index.js:297:9
+      at processParams (node_modules/router/index.js:582:12)
+      at next (node_modules/router/index.js:291:5)
+      at node_modules/router/index.js:688:15
+      at next (node_modules/router/index.js:276:14)
+      at next (node_modules/router/lib/route.js:132:14)
+      at next (src/controllers/adoptionController.js:68:14)
+
+  console.error
+    Error: Adoption not found with id of invalidid
+        at C:\Users\Administrator\Desktop\Code\Backend 3\Proyecto Final Backend 3\src\controllers\adoptionController.js:82:17
+        at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+    [0m [90m 36 |[39m [90m// Error handling middleware[39m
+     [90m 37 |[39m app[33m.[39muse((err[33m,[39m req[33m,[39m res[33m,[39m next) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 38 |[39m   console[33m.[39merror(err[33m.[39mstack)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 39 |[39m   [36mconst[39m statusCode [33m=[39m err[33m.[39mstatusCode [33m||[39m [35m500[39m[33m;[39m
+     [90m 40 |[39m   [36mconst[39m message [33m=[39m err[33m.[39mmessage [33m||[39m [32m'Something went wrong!'[39m[33m;[39m
+     [90m 41 |[39m[0m
+
+      at error (src/server.js:38:11)
+      at Layer.handleError (node_modules/router/lib/layer.js:116:17)
+      at trimPrefix (node_modules/router/index.js:340:13)
+      at node_modules/router/index.js:297:9
+      at processParams (node_modules/router/index.js:582:12)
+      at Immediate.next (node_modules/router/index.js:291:5)
+      at Immediate._onImmediate (node_modules/router/index.js:688:15)
+
+  console.error
+    Error: Adoption not found with id of invalidid
+        at C:\Users\Administrator\Desktop\Code\Backend 3\Proyecto Final Backend 3\src\controllers\adoptionController.js:120:17
+        at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+    [0m [90m 36 |[39m [90m// Error handling middleware[39m
+     [90m 37 |[39m app[33m.[39muse((err[33m,[39m req[33m,[39m res[33m,[39m next) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 38 |[39m   console[33m.[39merror(err[33m.[39mstack)[33m;[39m
+     [90m    |[39m           [31m[1m^[22m[39m
+     [90m 39 |[39m   [36mconst[39m statusCode [33m=[39m err[33m.[39mstatusCode [33m||[39m [35m500[39m[33m;[39m
+     [90m 40 |[39m   [36mconst[39m message [33m=[39m err[33m.[39mmessage [33m||[39m [32m'Something went wrong!'[39m[33m;[39m
+     [90m 41 |[39m[0m
+
+      at error (src/server.js:38:11)
+      at Layer.handleError (node_modules/router/lib/layer.js:116:17)
+      at trimPrefix (node_modules/router/index.js:340:13)
+      at node_modules/router/index.js:297:9
+      at processParams (node_modules/router/index.js:582:12)
+      at Immediate.next (node_modules/router/index.js:291:5)
+      at Immediate._onImmediate (node_modules/router/index.js:688:15)
+
+PASS __tests__/adoption.test.js
+  Adoption API
+    GET /api/adoptions
+      √ should get all adoptions (187 ms)
+    GET /api/adoptions/:id
+      √ should get a single adoption by ID (17 ms)
+      √ should return 404 for invalid adoption ID (26 ms)
+    POST /api/adoptions
+      √ should create a new adoption (35 ms)
+      √ should return 400 if required fields are missing (19 ms)
+    PUT /api/adoptions/:id
+      √ should update an adoption (17 ms)
+      √ should return 404 for invalid adoption ID (20 ms)
+    DELETE /api/adoptions/:id
+      √ should delete an adoption (15 ms)
+      √ should return 404 for invalid adoption ID (19 ms)
+
+------------------------|---------|----------|---------|---------|-----------------------------------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                             
+------------------------|---------|----------|---------|---------|-----------------------------------------------
+All files               |    52.7 |    27.77 |   31.25 |   52.44 |                                               
+ controllers            |   39.81 |    23.33 |   18.75 |   39.81 |                                               
+  adoptionController.js |   88.88 |    63.63 |     100 |   88.88 | 42,48,71,87,125                               
+  authController.js     |   18.18 |        0 |       0 |   18.18 | 11-32,40-64,71,78-111,120-142                 
+  orderController.js    |   27.27 |        0 |       0 |   27.27 | 10-14,21,28-37,52-68,76-92,100-110,118-124    
+  productController.js  |   31.25 |        0 |       0 |   31.25 | 9,16-22,30-34,41-52,59-67,74-83               
+  userController.js     |   34.28 |        0 |       0 |   34.28 | 9,16-18,28-33,43-45,55-57,67-77,84-94,103-116 
+ middleware             |      90 |       60 |   88.88 |   91.66 |                                               
+  advancedResults.js    |   94.11 |       50 |      75 |     100 | 17                                            
+  async.js              |     100 |      100 |     100 |     100 |                                               
+  auth.js               |   84.21 |     62.5 |     100 |   84.21 | 20,30,38                                      
+ models                 |       0 |        0 |       0 |       0 |                                               
+  Adoption.js           |       0 |      100 |     100 |       0 | 1-40                                          
+  Order.js              |       0 |      100 |     100 |       0 | 1-72                                          
+  Product.js            |       0 |      100 |     100 |       0 | 1-61                                          
+  User.js               |       0 |        0 |       0 |       0 | 1-80                                          
+ routes                 |   98.36 |      100 |       0 |   98.36 |                                               
+  adoption.js           |     100 |      100 |     100 |     100 |                                               
+  auth.js               |     100 |      100 |     100 |     100 |                                               
+  orders.js             |     100 |      100 |     100 |     100 |                                               
+  products.js           |     100 |      100 |     100 |     100 |                                               
+  reviews.js            |      80 |      100 |       0 |      80 | 6                                             
+  users.js              |     100 |      100 |     100 |     100 |                                               
+ utils                  |   71.42 |      100 |      50 |   71.42 |                                               
+  errorResponse.js      |     100 |      100 |     100 |     100 |                                               
+  sendEmail.js          |      50 |      100 |       0 |      50 | 8-15                                          
+------------------------|---------|----------|---------|---------|-----------------------------------------------
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        2.614 s
+Ran all test suites matching /__tests__\\adoption.test.js/i.
