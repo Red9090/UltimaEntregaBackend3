@@ -56,7 +56,7 @@ A RESTful API for an e-commerce platform built with Node.js, Express, and MongoD
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Red9090/UltimaEntregaBackend3>
    cd ecommerce-api
    ```
 
