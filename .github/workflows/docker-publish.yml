@@ -33,4 +33,4 @@ jobs:
           cache-to: type=registry,ref=red9090/fullstack-project:buildcache,mode=max
 
       - name: Image digest
-        run: echo "Image digest: ${{ steps.build-push.outputs.digest }}"
+        run: echo "Image digest: ${{ steps.build-push.outputs.digest }}
